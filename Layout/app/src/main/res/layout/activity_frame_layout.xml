@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayoutActivity">
+
+    <FrameLayout
+        android:id="@+id/myframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="202dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#0f0"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#fff"
+            android:text="FrameLayout"
+            android:textColor="#f00"
+            android:textSize="30sp"></TextView>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="196dp"
+            android:layout_gravity="right"
+            android:src="@drawable/image"></ImageView>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
