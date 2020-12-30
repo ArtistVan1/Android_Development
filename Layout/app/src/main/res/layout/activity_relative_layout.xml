@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ET1"
         android:layout_alignParentRight="true"
-        android:hint="OK"></Button>
+        android:text="OK"></Button>
 
     <Button
         android:id="@+id/cancel"
